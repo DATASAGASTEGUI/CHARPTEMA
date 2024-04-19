@@ -1,0 +1,5 @@
+﻿IDEMPLEADO;NOMBRE;ESTATURA;CASADO;SEXO;DIRECCION;HOBBIES
+E1;Juan;1.72;True;H;Av. América,123,Madrid;Fútbol,Pintura,Viajar
+E2;Carmen;1.71;False;M;Av. Ejercito,566,Sevilla;Ajedrez,Damas
+E3;Javier;1.75;True;M;Av. Gamarra,489,Cadiz;Viajar,Damas
+E4;Arturo;1.65;True;M;Av. Obegozo,233,Granada;Videos Juegos, Pintura, Lectura

@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0
+        }
+
+        .contenedor-principal {
+            display: flex;
+            justify-content: space-between;
+            border: 3px solid red;
+        }
+
+        .contenedor {
+            border: 2px solid black;
+            width: 200px;
+            margin: 20px;
+            padding: 15px;
+        }
+
+        .caja {
+            background-color: lightblue;
+            border: 1px solid black;
+            color: white;
+            padding: 5px;
+            margin: 5px;
+            text-align: center;
+        }
+
+        .boton {
+            background-color: black;
+            color: white;
+            margin: 15px;
+        }
+
+        .imagen1 {
+            filter: grayscale(100%);
+            border: 10px dotted red;
+            opacity: 1;
+            border-radius: 50%;
+        }
+
+        .imagen2 {
+            border: 10px solid red;
+            opacity: 1;
+        }        
+    </style>
+</head>
+
+<body>
+    <div class="contenedor-principal" id="contenedor-principal">
+        <div class="contenedor" id="contenedor1">
+            <div class="caja">CAJA 1</div>
+            <div class="caja">CAJA 2</div>
+            <div class="caja">CAJA 3</div>
+        </div>
+        <div class="contenedor" id="contenedor2">
+            <div class="caja">CAJA 4</div>
+            <div class="caja">CAJA 5</div>
+            <div class="caja">CAJA 6</div>
+        </div>
+    </div>
+
+    <!--
+    <div style="text-align: center;">
+        <button class="boton" onclick="ejercicio05_1('BOX')">CANBIAR NOMBRE DE LAS CAJAS 1 2 3 4 5 6 7 8 9</button>
+        <button class="boton" onclick="ejercicio05_1('CAJA')">RESTAURAR TEXTO ORIGINAL DE LAS CAJAS 1 2 3 4 5 6 7 8 9</button>
+    </div>
+    -->
+
+    <!--
+    <div style="text-align: center;">
+        <input type="text" id="txtEntrada" />
+        <button class="boton" onclick="accion()">ACCION</button>
+    </div>    
+    -->
+
+    <!--
+    <div style="text-align: center;" id="midiv">
+        <img src="comida.jpeg" id="miimagen"/><br>
+    </div>
+
+    <div style="text-align: center;">
+        <button onclick="cambiarImagen('helado.jpeg')">CAMBIAR IMAGEN</button>
+        <button onclick="cambiarImagen('comida.jpeg')">RESTAURAR IMAGEN</button>
+    </div>
+    -->
+   
+    <div style="text-align: center;" id="midiv">
+        <img class="" src="comida.jpeg" id="miimagen"/><br>
+        <button onclick="ejercicio13('imagen1')">ESTILO 1</button>
+        <button onclick="ejercicio13('imagen2')">ESTILO 2</button>
+    </div>
+
+
+    <script>
+        function ejercicio01() {
+            console.log("(01) OBTENER UN ELEMENTO(ETIQUETA HTML) EN BASE A SU ATRIBUTO ID");
+            let contendor1 = document.getElementById("contenedor1");
+            console.log(contenedor1);
+        }
+
+        function ejercicio02() {
+            console.log("(02) OBTENER UNA COLECCION DE ELEMENTOS EN BASE A LA ETIQUETA");
+            let divs = document.getElementsByTagName("div");
+            console.log(`TENEMOS ${divs.length} DIVS EN LA PAGINA`);
+            console.log('TENEMOS ' + divs.length + ' DIVS EN LA PAGINA');
+        }
+
+        function ejercicio03() {
+            console.log("(03) OBTENER LOS ELEMENTOS HIJOS");
+            let contendor1 = document.getElementById("contenedor1");
+            console.log(contenedor1.children);
+        }
+
+        function ejercicio04() {
+            console.log("(04) OBTENER EL ELEMENTO PADRE DE UN ELEMENTO");
+            let contenedor1 = document.getElementById("contenedor1");
+            console.log(contenedor1.parentElement);
+        }
+
+        function ejercicio05() {
+            console.log("(05) OBTENER UNA COLECCION DE ELEMENTOS EN BASE A SU CLASE CSS");
+            let contenedores = document.getElementsByClassName("caja");
+            console.log(contenedores);
+            for (let i = 0; i < contenedores.length; i++) {
+                contenedores[i].innerHTML = "BOX " + (i + 1);
+            }
+        }
+
+        function ejercicio05_1(texto) {
+            console.log("(05) OBTENER UNA COLECCION DE ELEMENTOS EN BASE A SU CLASE CSS");
+            let contenedores = document.getElementsByClassName("caja");
+            console.log(contenedores);
+            for (let i = 0; i < contenedores.length; i++) {
+                contenedores[i].innerHTML = texto + " " + (i + 1);
+            }
+        }
+
+        function ejercicio06() {
+            console.log("(06) OBTENER EL PRIMER ELEMENTO QUE COINCIDA CON UN SELECTOR DE ESTILO CSS");
+            let caja = document.querySelector("#contenedor1 .caja");
+            console.log(caja);
+            console.log(typeof(caja));
+            caja.innerHTML = "HOLA";
+        }
+
+        function ejercicio07() {
+            console.log("(07) OBTENER UNA COLECCION DE ELEMENTOS EN BASE A UN SELECTOR ESTILO CSS");
+            let cajas = document.querySelectorAll('#contenedor1 .caja');
+            console.log(cajas);
+        }    
+        
+        function ejercicio08() {
+            console.log("(08) OBTENER UNA COLECCION DE ELEMENTOS EN BASE A UN SELECTOR ESTILO CSS");
+            let cajas = document.querySelectorAll('#contenedor1 .caja');
+            for(let i=0; i<cajas.length; i++) {
+                cajas[i].innerHTML = "BOX " + (i+1);
+            }
+        }
+
+        function ejercicio09() {
+            console.log("(09) ACCEDER A LA ULTIMA CAJA DEL CONTENEDOR1");
+            let ultimaCaja = document.querySelector('#contenedor1 .caja:last-child');
+            console.log(ultimaCaja);
+            ultimaCaja.innerHTML = "HOLA";
+        }
+
+        function ejercicio10() {
+            console.log("(10) ACCEDER A LA ULTIMA CAJA DEL CONTENEDOR2");
+            let ultimaCaja = document.querySelector('#contenedor2 .caja:last-child');
+            console.log(ultimaCaja);
+            ultimaCaja.innerHTML = "HOLA";
+        }        
+
+        function accion() {
+            let objeto1 = document.getElementById('txtEntrada');
+            let dato = objeto1.value;
+            if(dato == '1') {
+               ejercicio09() 
+            }else if(dato == '2') {
+               ejercicio10();
+            }else {
+                //NO HACE NADA
+            }
+        }
+
+        function ejercicio11() {
+            console.log("(11) BUSCAR EN LOS ELEMENTOS PADRES EL DIV QUE TIENE LA CLASE CONTENEDOR-PRINCIPAL");
+            //closet: Nos permite buscar de adentro hacia afuera en busca de un elemento.
+            let ultimaCaja = document.querySelector('#contenedor2 .caja:last-child');
+            console.log(ultimaCaja);
+            let probar = ultimaCaja.closest('.contenedor-principal'); //Encadenar métodos
+            console.log(probar); // div del contenedor principal
+            probar.innerHTML = "<table><th>COLUMNA1</th><tr><td>Luis</td></tr></table>";
+        }
+
+        function ejercicio12() {
+            console.log("(12) ENCADENAR METODOS PARA OBTENER ELEMENTOS");
+            let contenedor2 = document.getElementById('contenedor2');
+            console.log(typeof(contenedor2));
+            let x = contenedor2.querySelector('.caja');
+            x.innerHTML = "<table border='1'><th>COLUMNA1</th><tr><td>Luis</td></tr></table>";
+            //x.innerHTML = "MUNDO";
+            console.log(contenedor2.querySelector('.caja')); //Caja 4
+        }
+
+        function cambiarImagen(texto) {
+             let div_imagen = document.getElementById('midiv');
+             div_imagen.innerHTML = "<img src=" + texto + " id='miimagen'/><br>" 
+             //div_imagen.innerHTML = "AQUI SE PONE MI IMAGEN" 
+             console.log(imagen)
+        }
+
+        function ejercicio13(estilo) { //15
+            console.log("(13) MODIFICAR EL ATRIBUTO DE UN ELEMENTO");
+            let objeto = document.getElementById('miimagen');
+            objeto.setAttribute('class', estilo);
+        }
+
+        function ejercicio14() { //16
+            console.log("(13) MODIFICAR LOS ESTILOS CSS INDIVIDUALMENTE");
+            let primeraCajaContenedor2 = document.querySelector('#contenedor2 .caja');
+            primeraCajaContenedor2.style.background = '#000';
+            primeraCajaContenedor2.style.color = 'yellow';
+        }
+
+
+
+        ejercicio14();
+
+
+
+        /*
+          F12
+          Ctrl + Shift + J
+          Botón derecho en el navegador y opción "inspeccionar"
+        */
+
+
+    </script>
+</body>
+
+</html>

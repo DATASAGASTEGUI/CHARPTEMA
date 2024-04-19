@@ -1,0 +1,41 @@
+[
+  {
+    "idEmpleado": "E1",
+    "nombre": "Juan",
+    "estatura": 1.72,
+    "casado": true,
+    "sexo": "H",
+    "direccion": {
+      "calle": "Av. América",
+      "numero": 123,
+      "ciudad":  "Madrid"
+    },
+    "hobbies":  ["Fútbol","Pintura","Viajar"]
+  },
+  {
+    "idEmpleado": "E2",
+    "nombre": "Carmen",
+    "estatura": 1.71,
+    "casado": false,
+    "sexo": "M",
+    "direccion": {
+      "calle": "Av. Ejercito",
+      "numero": 566,
+      "ciudad": "Sevilla"
+    },
+    "hobbies": [ "Ajedrez", "Damas" ]
+  },
+  {
+    "idEmpleado": "E3",
+    "nombre": "Javier",
+    "estatura": 1.75,
+    "casado": true,
+    "sexo": "M",
+    "direccion": {
+      "calle": "Av. Gamarra",
+      "numero": 489,
+      "ciudad": "Cadiez"
+    },
+    "hobbies": [ "Viajar", "Damas" ]
+  }
+]

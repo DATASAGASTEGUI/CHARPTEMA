@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+       .caja {
+          width: 100px;
+          height: 100px;
+          background-color: brown;
+          transition: background-color 4s, rotate 4s, width 4s, height 4s;
+       }
+       .caja:hover {
+         background-color: aqua;
+         rotate: 180deg;
+         width: 200px;
+         height: 200px;
+
+       }
+
+       .imgA {
+          width: 100px;
+          height: 100px;
+          margin-top: 100px;
+          transition: width 4s, height 4s, rotate 4s 3s;
+       }
+
+       .imgA:hover {
+         width: 200px;
+         height: 200px;
+         rotate: 360deg;
+       }
+        
+    </style>
+
+</head>
+<body>
+    <div class="caja"></div>
+
+    <img class="imgA" src="4.png"/>
+</body>
+</html>

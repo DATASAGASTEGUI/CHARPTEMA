@@ -1,0 +1,29 @@
+COMANDOS BASICOS MONGODB
+------------------------
+show dbs;
+use personasDB;
+db
+
+- MOSTRAR TODAS LAS PERSONAS
+db.persona.find();
+
+
+- MOSTRAR TODAS LAS PERSONAS DE UNA CIUDAD DADA (FILTRO, PROYECCION)
+db.persona.find({"direccion.ciudad": "Zamora"},{nombre:1});
+
+- MOSTRAR TODAS LAS CIUDADES DISTINTAS
+db.persona.distinct("direccion.ciudad");
+
+- MOSTRAR TODOS LOS HOBBIES DISTINTOS
+db.persona.distinct("hobbies");
+
+- INSERTAR UN DOCUMENTO
+db.persona.insertOne({});
+db.persona.insertOne({nombre: "Arturo"});
+db.persona.insertOne({idPersona: "P60", nombre: "Arturo"});
+
+
+
+     
+
+

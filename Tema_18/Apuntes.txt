@@ -1,0 +1,13 @@
+﻿CREATE DATABASE CENTROBELLEZA;
+
+USE CENTROBELLEZA;
+
+CREATE TABLE Estetica(
+  id          INT PRIMARY KEY,
+  fecha       VARCHAR(15),
+  categoria   VARCHAR(10),
+  tratamiento VARCHAR(40),
+  esteticista VARCHAR(15),
+  precio      DOUBLE,
+  descuento   DOUBLE
+);

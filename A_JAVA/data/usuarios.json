@@ -1,0 +1,30 @@
+[
+    {
+        "idEmpleado": "E1",
+        "nombre": "Luis",
+        "edad": 21,
+        "estatura": 1.71,
+        "casado": true
+    },
+    {
+        "idEmpleado": "E2",
+        "nombre": "Miguel",
+        "edad": 22,
+        "estatura": 1.72,
+        "casado": false
+    },
+    {
+        "idEmpleado": "E3",
+        "nombre": "Carmen",
+        "edad": 23,
+        "estatura": 1.73,
+        "casado": true
+    },
+    {
+        "idEmpleado": "E4",
+        "nombre": "Sylvia",
+        "edad": 24,
+        "estatura": 1.74,
+        "casado": false
+    }    
+]

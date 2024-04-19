@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .estilo-rectangulo {
+            width: 180px;
+            height: 360px;
+        }
+
+        .estilo-circulo {
+            width: 180px;
+            height: 180px;
+            border-radius: 90px;
+        }
+        .contenedor {
+            width: 180px;
+            margin: 0 auto;
+        }
+
+        button {
+            width: 180px;
+            height: 24px;
+            background-color: black;
+            font-size: "currier new";
+            color: white;
+        }
+
+    </style>
+</head>
+<body>
+
+    <div class="contenedor">
+
+        <button id="id-boton">TOGGLE - ESTILO</button>
+        <img class="estilo-rectangulo" src="1.png" />
+
+
+    </div>
+
+    <script>
+         let botonToggle = document.getElementById('id-boton');
+         botonToggle.addEventListener('click', mifuncion);
+
+         function mifuncion() {
+            let imagen = document.querySelector('.estilo-rectangulo');
+            imagen.classList.toggle('estilo-circulo');
+         }
+
+
+    </script>
+
+</body>
+</html>

@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            font-family: 'Courier New';
+            font-size: 0.8em;
+        }
+        
+        .div-titulo {
+            color: red;
+            font-weight: normal;
+            font-size: 1.5em;
+            text-transform: uppercase;
+            text-align: center;
+        }
+
+        .text-entrada {
+            text-align: center;
+            border-radius: 5px;
+            border: none;
+            width: 10%;
+            color: blue;
+            outline: none;
+        }
+
+        button {
+           background-color: black; 
+           color: white;
+           text-align: center;
+           border-radius: 5px;
+           border: none;
+           width: 13%;
+           cursor: pointer;
+           font-size: 0.8em;
+        }
+    </style>
+</head>
+<body>
+     <div class="div-titulo">CALCULO FUNCIONES AREA CIRCULO</div>
+     <div style="text-align: center;">
+        <!--ENTRADA-->    
+        <label for="txtR">RADIO</label><br>
+        <input type="text" id="txtR" class="text-entrada" /><br>
+        <!--SALIDA-->
+        <label for="txtArea">AREA</label><br>
+        <input type="text" id="txtArea" readonly class="text-entrada" style="color: red;"/><br>
+        <!--ACCION-->
+        <button onclick="area()">AREA</button><br>
+        <button onclick="reiniciar()">REINICIAR</button>
+    </div>
+
+    <script>
+
+        function area() {
+            let radio = document.getElementById('txtR').value;
+            if(!isNaN(radio)) {
+                let area = Math.PI * Math.pow(parseFloat(radio),2);
+                document.getElementById('txtArea').value = area.toFixed(2);
+            }else {
+                alert("ENTRADA INCORRECTA");
+            }
+        }
+
+        function reiniciar() {
+            document.getElementById('txtR').value = "";
+            document.getElementById('txtArea').value = "";
+        }
+    </script>    
+</body>
+</html>

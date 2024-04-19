@@ -1,0 +1,55 @@
+﻿<Window x:Class="WPF_CERTIFICADO.Tema_26.xaml_08.Ventana"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WPF_CERTIFICADO.Tema_26.xaml_08"
+        mc:Ignorable="d"
+        
+        Title="VENTANA CSHARP WPF"
+        Height="325"
+        Width="400"
+        Icon="cross1.png"
+        ResizeMode="NoResize"
+        WindowStartupLocation="CenterScreen"
+        Background="LightGray">
+    
+        <Grid Margin="15">
+            <ScrollViewer VerticalScrollBarVisibility="Auto" HorizontalScrollBarVisibility="Auto">
+            <StackPanel>
+
+                <TextBlock Text="1. ¿Cuál es la capital de Francia?" FontWeight="Bold" Margin="0,0,0,5" />
+                <RadioButton Name="rbParis" Content="Paris" GroupName="Pregunta1" />
+                <RadioButton Name="rbMadrid" Content="Madrid" GroupName="Pregunta1" />
+                <RadioButton Name="rbLisboa" Content="Lisboa" GroupName="Pregunta1" />
+                <RadioButton Name="rbLondres" Content="Londres" GroupName="Pregunta1" />
+
+                <TextBlock Text="2. ¿Cuál es el rio mas largo del mundo?" FontWeight="Bold" Margin="0,0,0,5" />
+                <RadioButton Name="rbAmazonas" Content="Amazonas" GroupName="Pregunta2" />
+                <RadioButton Name="rbEufrates" Content="Eufrates" GroupName="Pregunta2" />
+                <RadioButton Name="rbNilo" Content="Nilo" GroupName="Pregunta2" />
+                <RadioButton Name="rbOrinoco" Content="Orinoco" GroupName="Pregunta2" />
+
+                <TextBlock Text="3. ¿Cuál es el pais mas poblado del mundo?" FontWeight="Bold" Margin="0,0,0,5" />
+                <RadioButton Name="rbBrasil" Content="Brasil" GroupName="Pregunta3" />
+                <RadioButton Name="rbChina" Content="China" GroupName="Pregunta3" />
+                <RadioButton Name="rbIndia" Content="India" GroupName="Pregunta3" />
+                <RadioButton Name="rbNigeria" Content="Nigeria" GroupName="Pregunta3" />
+
+                <TextBlock Text="4. ¿Cuál es el pais mas grande del mundo?" FontWeight="Bold" Margin="0,0,0,5" />
+                <RadioButton Name="rbUsa" Content="Usa" GroupName="Pregunta4" />
+                <RadioButton Name="rbChina1" Content="China" GroupName="Pregunta4" />
+                <RadioButton Name="rbIndia1" Content="India" GroupName="Pregunta4" />
+                <RadioButton Name="rbRusia" Content="Rusia" GroupName="Pregunta4" />
+
+                <StackPanel Orientation="Horizontal" Margin="0,15,0,0" HorizontalAlignment="Center">
+                    <Button Content="EVALUAR" FontSize="9" Width="80" Click="Evaluar" />
+                    <Button Content="REINICIAR" FontSize="9" Width="80" Margin="10,0,10,0" Click="Reiniciar"/>
+                    <Button Content="SALIR"  FontSize="9" Width="80" Click="Salir"/>
+                </StackPanel>
+                
+
+            </StackPanel>
+            </ScrollViewer>
+    </Grid>
+</Window>

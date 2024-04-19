@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TEST</title>
+    <script defer src="codigo.js"></script>
+    <style>
+        .contenedor {
+            margin: 40px;
+            background-color: #333;
+        }
+
+        p {
+            font-weight: bold;
+            color: blue;
+            font-family: 'Courier New';
+        }
+
+        label {
+            font-family: 'Courier New';
+        }
+
+        #id-resultado {
+            margin: 40px; 
+            background-color: #338;
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+    <form id="formularioEvaluar">
+        <div class="contenedor">
+            <div class="pregunta">
+                <p>1. ¿Cuál es la capital de Francia?</p>
+                <input type="radio" value="a" id="p1a" name="p1">
+                <label for="p1a">Madrid</label><br>
+                <input type="radio" value="b" id="p1b" name="p1">
+                <label for="p1b">Roma</label><br>
+                <input type="radio" value="c" id="p1c" name="p1">
+                <label for="p1c">París</label><br>
+                <input type="radio" value="d" id="p1d" name="p1">
+                <label for="p1d">Berlín</label><br>
+            </div>
+
+            <div class="pregunta">
+                <p>2. ¿Cuál es el río mas largo del mundo?</p>
+                <input type="radio" value="a" id="p2a" name="p2">
+                <label for="p2a">Amazonas</label><br>
+                <input type="radio" value="b" id="p2b" name="p2">
+                <label for="p2b">Nilo</label><br>
+                <input type="radio" value="c" id="p2c" name="p2">
+                <label for="p2c">Yangtsé</label><br>
+                <input type="radio" value="d" id="p2d" name="p2">
+                <label for="p2d">Misisipi</label><br>
+            </div>
+
+            <br>
+            <button type="button" onclick="evaluarTest()">EVALUAR</button>
+        </div>
+    </form>
+    <div id="id-resultado">    </div>
+</body>
+</html>

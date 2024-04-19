@@ -1,0 +1,10 @@
+h1 { /* block */
+    background-color: yellow;
+    width: 50%;
+    text-align: center;/*CENTRAR EN EL ESPACIO DE LA ETIQUETA*/
+    margin: 0 auto; /*CENTRAR EN LA PANTALLA*/
+}
+
+a { /* inline */
+    background-color: green;
+}

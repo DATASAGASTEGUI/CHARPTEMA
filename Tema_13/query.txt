@@ -1,0 +1,3 @@
+SELECT m.codigoModulo, m.nombre, a.idAsignatura, a.nombre
+FROM modulo m, asignatura a
+WHERE m.codigoModulo = a.codigoModulo;

@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+
+
+<script>
+    // NUMBER (ENTERO - PUNTO FLOTANTE)
+    let edad = 21;
+    let estatura = 1.72;
+    console.log(typeof(edad));
+    console.log(typeof(estatura));
+
+    // STRING (TEXTO)
+    let nombre = "Arturo";
+    console.log(typeof(nombre));
+
+    // BOOLEAN (LOGICO)
+    let casado = true;
+    console.log(typeof(casado));
+
+    // UNDEFINED (VARIABLE DECLADA PERO NO INICIALIZADA)
+    let paterno;
+    console.log(typeof(paterno)); //undefined
+    paterno = "Ruiz";
+    console.log(typeof(paterno)); //string
+
+    // NULL (AUSENCIA DE VALOR)   --> object
+    let materno = null;
+    console.log(typeof(materno)); // object
+    materno = "Parraga";
+    console.log(typeof(materno)); // string
+
+    // DICCIONARIO --> object
+    let persona = {nombre: "Mateo", edad:15, estatura:1.72, casado:true, hobby:["Lectura","Pawo"]};
+    console.log(typeof(persona)); // object
+
+    // ARRAY --> object
+    let numeros = [8,2,1,9];
+    console.log(typeof(numeros));
+
+    // FUNCION --> function
+    let suma = function(a,b) {return a + b;}
+    console.log(typeof(suma)); // function
+    console.log("Suma: " + suma(2,5));
+
+</script>
+</body>
+</html>

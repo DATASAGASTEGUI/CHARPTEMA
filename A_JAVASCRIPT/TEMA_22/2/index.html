@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WEB</title>
+    <script defer src="codigo.js"></script>
+    <script defer src="reloj.js"></script>
+    <link rel="stylesheet" href="estilo.css">
+    <style>
+        .contenedor-reloj {
+            /*CONTENEDOR*/
+            max-width: 70%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin: 50px auto;
+            gap: 20px;
+        }
+
+
+    </style>
+</head>
+<body>
+
+    <div class="contenedor-reloj">
+
+        <button id="btnInicio" style="width: 15%;">INICIAR RELOJ</button>
+        <input type="text" id="txtReloj" style="text-align: center;"/>
+        <button id="btnDetener" style="width: 15%;">DETENER RELOJ</button>
+
+    </div>
+
+    <div class="contenedor-slider">
+
+        <img class="slider-izquierda" src="imagenes/izquierda.png" />
+        <img class="slider-centro" />
+        <img class="slider-derecha" src="imagenes/derecha.png" />
+
+    </div>
+
+    <div class="contenedor-estilos">
+        <button id="btnCambiarEstilo1">ESTILO CICULO</button>
+        <button id="btnCambiarEstilo2">ESTILO RECTANGULO</button>
+    </div>
+    
+    
+</body>
+</html>

@@ -1,0 +1,538 @@
+ID;FECHA;CATEGORIA;TRATAMIENTO;ESTETICISTA;PRECIO;DESCUENTO
+1;2019-01-02;Corporal;De Algas Desintoxicantes;María;1849;47.09126625
+2;2019-01-02;Corporal;Exfoliante Energizante;Camila;500;16.68988289
+3;2019-01-02;Facial;Daymond Frozend;Rafaella;2520;54.59621618
+4;2019-01-02;Corporal;Hipertermia;María;450;3.467968487
+5;2019-01-02;Corporal;Reductivo;Rosa;4995;109.6302678
+6;2019-01-02;Corporal;De Algas Desintoxicantes;Rafaella;1849;44.95657882
+7;2019-01-03;Facial;Accua Morin;María;1500;43.5139648
+8;2019-01-03;Facial;Antiedad;Ana;1540;41.15780604
+9;2019-01-03;Facial;Basico;Camila;590;14.11767568
+10;2019-01-03;Corporal;Heavenly Body;Rosa;1706;7.394348613
+11;2019-01-03;Facial;Tratamiento de Limpieza;Ana;1705;37.3975997
+12;2019-01-03;Facial;Linea Colageno y Elastina;Ana;150;2.531759348
+13;2019-01-03;Corporal;Envolvente De Aguacate Con Yogurt;María;1320;57.84919196
+14;2019-01-03;Corporal;Envolvente Desintoxicante;Rosa;750;24.27835999
+15;2019-01-03;Corporal;Con Tequila;Ana;1854.398;37.88988194
+16;2019-01-03;Corporal;Heavenly Body;Rosa;1706;12.05803627
+17;2019-01-04;Facial;Microdermoabrasión;Rafaella;850;24.90420291
+18;2019-01-04;Corporal;Cacahua;Rafaella;1632;58.3565641
+19;2019-01-04;Corporal;Ritual Azul Turquesa;Rafaella;1889;76.65148109
+20;2019-01-04;Facial;Microdermoabrasión;Rafaella;850;30.41586814
+21;2019-01-04;Corporal;Hieloterapia;Ana;380;5.444226776
+22;2019-01-04;Corporal;Heavenly Body;Rafaella;1706;3.76189659
+23;2019-01-04;Corporal;Ritual Esencial Del Mar;María;2240;92.03685927
+24;2019-01-04;Facial;Microdermoabrasión;Camila;850;0.316605544
+25;2019-01-04;Corporal;Envolvente De Aguacate Con Yogurt;María;1320;37.71810316
+26;2019-01-04;Facial;Linea Colageno y Elastina;Rosa;150;0.775853219
+27;2019-01-05;Facial;Hieloterapia;Camila;550;9.931830508
+28;2019-01-05;Corporal;Integral Reductivo;María;650;16.49491623
+29;2019-01-05;Corporal;Hipertermia;Ana;450;10.30037265
+30;2019-01-05;Facial;Microdermoabrasión;María;850;41.91191087
+31;2019-01-05;Corporal;Relajante (No Recuerda Bien El Nombre);Camila;550;19.52283648
+32;2019-01-05;Corporal;Hipertermia;Rafaella;450;15.83384251
+33;2019-01-05;Corporal;Chocoterapia;Rafaella;600;21.55257587
+34;2019-01-05;Facial;Limpieza Profunda;Rosa;350;5.240683264
+35;2019-01-05;Facial;Daymond Frozend;Rafaella;2520;119.1237362
+36;2019-01-05;Corporal;Exfoliante Energizante;Rafaella;500;16.63949556
+37;2019-01-06;Facial;Microdermoabrasión;Camila;850;24.17494008
+38;2019-01-06;Corporal;Cacahua;María;1632;14.63767573
+39;2019-01-06;Facial;Linea Colageno y Elastina;María;150;1.066221946
+40;2019-01-06;Corporal;Envolvente De Aguacate Con Yogurt;Rafaella;1320;35.30310655
+41;2019-01-06;Corporal;Fango Aromatico;María;850;38.94633682
+42;2019-01-06;Corporal;Chocoterapia;Rafaella;600;24.92550964
+43;2019-01-06;Corporal;Ritual Azul Turquesa;Ana;1889;59.59312379
+44;2019-01-06;Facial;Lifting de Piel Madura;Rosa;4095;50.03634358
+45;2019-01-06;Corporal;Envolvente De Aguacate Con Yogurt;Ana;1320;48.85947618
+46;2019-01-06;Corporal;Fango;María;650;2.508253472
+47;2019-01-06;Corporal;Heavenly Body;Ana;1706;34.79046895
+48;2019-01-07;Corporal;De Algas Desintoxicantes;María;1849;35.27540406
+49;2019-01-07;Facial;Europeo;Rosa;850;34.3743938
+50;2019-01-07;Corporal;Hipertermia;María;450;11.83484106
+51;2019-01-07;Facial;Limpieza Profunda;Rosa;350;14.49605018
+52;2019-01-07;Corporal;Envolvente De Aguacate Con Yogurt;Camila;1320;47.80142881
+53;2019-01-08;Facial;Hieloterapia;Rosa;550;1.889923365
+54;2019-01-08;Corporal;Hipertermia;Ana;450;18.39319527
+55;2019-01-08;Corporal;Modelaje;Rafaella;805;22.79156543
+56;2019-01-08;Corporal;Envolvente De Aguacate Con Yogurt;Camila;1320;14.95569878
+57;2019-01-08;Corporal;Exfoliante Energizante;Camila;500;10.32166243
+58;2019-01-08;Corporal;De Algas Desintoxicantes;Rosa;1849;11.45538153
+59;2019-01-08;Corporal;Chocoterapia;Ana;600;1.351453046
+60;2019-01-08;Facial;Antiedad;Rafaella;1540;69.0646871
+61;2019-01-08;Facial;Antiedad;Camila;1540;20.53845268
+62;2019-01-08;Corporal;Hipertermia;Ana;450;13.47301854
+63;2019-01-08;Facial;Microdermoabrasión;María;850;40.53833543
+64;2019-01-08;Facial;Yax;Camila;1278;41.40843771
+65;2019-01-08;Facial;Hieloterapia;María;550;14.37135737
+66;2019-01-08;Facial;Antiedad;Rosa;1540;36.80028762
+67;2019-01-08;Corporal;Cacahua;Camila;1632;7.593899325
+68;2019-01-08;Facial;Antiedad;Rosa;1540;10.50991634
+69;2019-01-08;Corporal;Relajante (No Recuerda Bien El Nombre);Rafaella;550;4.403391049
+70;2019-01-09;Facial;Basico;Camila;590;10.79584124
+71;2019-01-09;Corporal;Envolvente Desintoxicante;Rosa;750;1.997420912
+72;2019-01-09;Facial;Daymond Frozend;María;2520;9.972553584
+73;2019-01-09;Corporal;Modelaje;Rosa;805;36.74155164
+74;2019-01-09;Corporal;Relajante (No Recuerda Bien El Nombre);Ana;550;16.65680698
+75;2019-01-09;Facial;Antiedad;María;1540;3.796371305
+76;2019-01-09;Facial;Antiedad;Rafaella;1540;14.06396757
+77;2019-01-09;Facial;Hieloterapia;Rafaella;550;13.46947633
+78;2019-01-10;Facial;Antiedad;Ana;1540;66.30835539
+79;2019-01-10;Corporal;Ritual Esencial Del Mar;Ana;2240;1.805319777
+80;2019-01-10;Corporal;Heavenly Body;María;1706;27.16447698
+81;2019-01-10;Corporal;Chocoterapia;Ana;600;25.74314311
+82;2019-01-10;Corporal;Exfoliante Energizante;Rosa;500;17.18313432
+83;2019-01-10;Corporal;Reductivo;Rosa;4995;155.9236088
+84;2019-01-10;Facial;Microdermoabrasión;Camila;850;1.850527724
+85;2019-01-10;Facial;Lifting de Piel Madura;Ana;4095;186.3570179
+86;2019-01-10;Corporal;Envolvente Desintoxicante;Ana;750;19.6483098
+87;2019-01-10;Corporal;Hieloterapia;María;380;14.54269496
+88;2019-01-11;Facial;Daymond Frozend;María;2520;12.66462512
+89;2019-01-11;Facial;Limpieza Profunda;Rafaella;350;13.66808659
+90;2019-01-11;Corporal;Integral Reductivo;Rosa;650;28.23756959
+91;2019-01-11;Facial;Antiedad;María;1540;49.8812471
+92;2019-01-11;Corporal;Heavenly Body;Rafaella;1706;27.7796686
+93;2019-01-11;Corporal;Integral Reductivo;Camila;650;5.570377257
+94;2019-01-11;Corporal;Integral Reductivo;Rafaella;650;21.39621185
+95;2019-01-11;Facial;Limpieza Profunda;Ana;350;2.89274558
+96;2019-01-11;Corporal;Ritual Esencial Del Mar;Rafaella;2240;104.4070153
+97;2019-01-11;Facial;Daymond Frozend;Rafaella;2520;66.73999999
+98;2019-01-11;Corporal;Hipertermia;Ana;450;0.416084739
+99;2019-01-11;Facial;Renewel;Camila;2133;39.5643603
+100;2019-01-11;Corporal;Cacahua;Ana;1632;20.88162699
+101;2019-01-11;Facial;Renewel;Camila;2133;67.54843523
+102;2019-01-12;Corporal;Cacahua;Ana;1632;13.30702493
+103;2019-01-12;Facial;Equilibrante;Rosa;550;8.129235797
+104;2019-01-12;Corporal;Envolvente Desintoxicante;Rosa;750;24.90304098
+105;2019-01-12;Corporal;Hipertermia;Camila;450;8.947342115
+106;2019-01-12;Facial;Exfoliación;María;400;3.327436626
+107;2019-01-12;Corporal;Fango;Camila;650;13.03296466
+108;2019-01-13;Corporal;Hipertermia;Rafaella;450;2.298818782
+109;2019-01-13;Corporal;Fango;Rafaella;650;22.36091441
+110;2019-01-13;Corporal;Envolvente Desintoxicante;Rosa;750;31.77007824
+111;2019-01-13;Facial;Hidratante;Rosa;500;16.48028671
+112;2019-01-13;Facial;Exfoliación;Rosa;400;4.535528137
+113;2019-01-13;Corporal;Envolvente Desintoxicante;Camila;750;24.58187168
+114;2019-01-13;Corporal;Hipertermia;Rosa;450;18.80000435
+115;2019-01-13;Corporal;Exfoliante Energizante;Camila;500;21.40918546
+116;2019-01-13;Facial;Renewel;María;2133;82.14141798
+117;2019-01-13;Facial;Limpieza Profunda;Rosa;350;11.07054612
+118;2019-01-14;Facial;Hidratante;Rosa;500;22.09614724
+119;2019-01-14;Facial;Vaporizacion;Rosa;480;13.93241674
+120;2019-01-14;Facial;Basico;Camila;590;14.48085696
+121;2019-01-14;Corporal;Reductivo;María;4995;124.6848228
+122;2019-01-14;Facial;Limpieza Profunda;María;350;11.46642314
+123;2019-01-14;Facial;Hidratante;Ana;500;21.71832516
+124;2019-01-14;Facial;Yax;Camila;1278;6.156166859
+125;2019-01-14;Facial;Limpieza Profunda;Rafaella;350;5.111720866
+126;2019-01-14;Corporal;Heavenly Body;Camila;1706;59.55775643
+127;2019-01-14;Facial;Hieloterapia;Ana;550;24.21481891
+128;2019-01-14;Corporal;De Algas Desintoxicantes;María;1849;57.43785226
+129;2019-01-14;Facial;Yax;María;1278;23.50990336
+130;2019-01-14;Corporal;Hipertermia;Rafaella;450;0.795849026
+131;2019-01-15;Corporal;Envolvente Desintoxicante;María;750;27.803941
+132;2019-01-15;Corporal;Ritual Azul Turquesa;Ana;1889;66.00761395
+133;2019-01-15;Facial;Accua Morin;Rosa;1500;17.24837878
+134;2019-01-15;Corporal;De Algas Desintoxicantes;Camila;1849;20.83064247
+135;2019-01-15;Corporal;Relajante (No Recuerda Bien El Nombre);Rafaella;550;2.354187594
+136;2019-01-15;Facial;Exfoliación;Rosa;400;2.23231223
+137;2019-01-15;Facial;Yax;Rafaella;1278;21.78181872
+138;2019-01-15;Corporal;Velo De Novia (Exfoliacion Corporal);María;350;6.117237547
+139;2019-01-15;Facial;Basico;María;590;16.95026708
+140;2019-01-15;Corporal;Chocoterapia;Camila;600;2.052952397
+141;2019-01-15;Facial;Europeo;Rafaella;850;13.64330404
+142;2019-01-15;Corporal;Fango Aromatico;Rosa;850;32.52234989
+143;2019-01-15;Corporal;De Algas Desintoxicantes;Camila;1849;65.04241627
+144;2019-01-16;Facial;Hieloterapia;Rosa;550;16.64545042
+145;2019-01-16;Facial;Europeo;Ana;850;35.48730901
+146;2019-01-16;Corporal;Velo De Novia (Exfoliacion Corporal);Ana;350;14.57130158
+147;2019-01-16;Facial;Linea Colageno y Elastina;Ana;150;2.986557034
+148;2019-01-16;Facial;Tratamiento de Limpieza;Ana;1705;83.93929031
+149;2019-01-16;Facial;Tratamiento de Limpieza;Ana;1705;19.21971184
+150;2019-01-16;Corporal;Modelaje;Ana;805;1.590609
+151;2019-01-16;Corporal;Relajante (No Recuerda Bien El Nombre);Ana;550;23.68698394
+152;2019-01-16;Corporal;Envolvente Desintoxicante;Ana;750;22.88843776
+153;2019-01-17;Corporal;Envolvente De Aguacate Con Yogurt;Rosa;1320;45.87662375
+154;2019-01-17;Facial;Hieloterapia;Ana;550;26.22188549
+155;2019-01-17;Facial;Limpieza Profunda;Rafaella;350;0.23298606
+156;2019-01-17;Corporal;Integral Reductivo;Camila;650;25.68253965
+157;2019-01-17;Corporal;Heavenly Body;Rosa;1706;9.29659288
+158;2019-01-17;Corporal;Cacahua;María;1632;28.99212858
+159;2019-01-17;Facial;Hieloterapia;María;550;20.18666369
+160;2019-01-17;Facial;Yax;María;1278;51.43942711
+161;2019-01-17;Facial;Antiedad;Ana;1540;38.06914109
+162;2019-01-17;Corporal;Modelaje;Camila;805;4.436331197
+163;2019-01-17;Corporal;Integral Reductivo;Rosa;650;13.74652939
+164;2019-01-17;Facial;Hidratante;Rafaella;500;4.172959218
+165;2019-01-17;Corporal;Fango Aromatico;Rafaella;850;20.69385377
+166;2019-01-17;Corporal;Heavenly Body;Rosa;1706;10.84756918
+167;2019-01-18;Corporal;Envolvente De Aguacate Con Yogurt;Camila;1320;50.80592665
+168;2019-01-18;Corporal;Envolvente Desintoxicante;Rafaella;750;23.91213578
+169;2019-01-18;Facial;Limpieza Profunda;Rosa;350;11.98192163
+170;2019-01-18;Corporal;Reductivo;Camila;4995;3.217364435
+171;2019-01-18;Facial;Hieloterapia;Camila;550;7.621260761
+172;2019-01-18;Corporal;Reductivo;Camila;4995;17.40043989
+173;2019-01-18;Corporal;Modelaje;Ana;805;4.092506453
+174;2019-01-18;Facial;Equilibrante;Rafaella;550;7.805805982
+175;2019-01-18;Facial;Exfoliación;Rafaella;400;7.194967548
+176;2019-01-18;Facial;Microdermoabrasión;Rosa;850;20.88106378
+177;2019-01-18;Facial;Tratamiento de Limpieza;Rosa;1705;67.08502074
+178;2019-01-18;Facial;Hieloterapia;Rosa;550;6.480891929
+179;2019-01-18;Facial;Microdermoabrasión;Rafaella;850;12.93016978
+180;2019-01-18;Facial;Limpieza Profunda;María;350;10.90810181
+181;2019-01-19;Corporal;Modelaje;Ana;805;1.401034378
+182;2019-01-19;Corporal;De Algas Desintoxicantes;María;1849;34.29881047
+183;2019-01-19;Corporal;Heavenly Body;Rafaella;1706;14.02944431
+184;2019-01-19;Facial;Hidratante;Rosa;500;16.46093199
+185;2019-01-19;Corporal;Integral Reductivo;Ana;650;9.067087
+186;2019-01-19;Corporal;Chocoterapia;Ana;600;13.7847597
+187;2019-01-19;Corporal;Modelaje;Ana;805;6.827707938
+188;2019-01-19;Facial;Europeo;Camila;850;31.96383342
+189;2019-01-19;Facial;Equilibrante;Rosa;550;23.98412779
+190;2019-01-19;Corporal;Relajante (No Recuerda Bien El Nombre);Rosa;550;22.41422413
+191;2019-01-20;Corporal;Velo De Novia (Exfoliacion Corporal);María;350;6.849569765
+192;2019-01-20;Facial;Equilibrante;Camila;550;16.61469495
+193;2019-01-20;Facial;Basico;María;590;20.75674486
+194;2019-01-20;Corporal;Ritual Esencial Del Mar;María;2240;106.1717953
+195;2019-01-20;Corporal;Chocoterapia;Camila;600;0.715819533
+196;2019-01-20;Corporal;Hieloterapia;Rafaella;380;6.037308584
+197;2019-01-20;Facial;Hidratante;Ana;500;11.69324909
+198;2019-01-20;Corporal;Heavenly Body;María;1706;33.88783554
+199;2019-01-20;Facial;Antiedad;Ana;1540;46.39255348
+200;2019-01-20;Corporal;Chocoterapia;Ana;600;18.94961953
+201;2019-01-20;Corporal;Envolvente De Aguacate Con Yogurt;María;1320;56.20668755
+202;2019-01-21;Corporal;Velo De Novia (Exfoliacion Corporal);Ana;350;3.294790386
+203;2019-01-21;Facial;Yax;María;1278;20.2702981
+204;2019-01-21;Facial;Antiedad;Camila;1540;5.595193642
+205;2019-01-21;Facial;Hidratante;Rosa;500;22.14223572
+206;2019-01-21;Facial;Exfoliación;Camila;400;10.27578696
+207;2019-01-21;Facial;Daymond Frozend;María;2520;55.95018274
+208;2019-01-21;Facial;Antiedad;Rosa;1540;18.90891623
+209;2019-01-21;Facial;Exfoliación;Rosa;400;8.446667853
+210;2019-01-21;Facial;Tratamiento de Limpieza;Rosa;1705;21.04238814
+211;2019-01-21;Facial;Basico;Rosa;590;27.45000961
+212;2019-01-22;Corporal;Heavenly Body;Rafaella;1706;76.93726813
+213;2019-01-22;Facial;Daymond Frozend;Rosa;2520;37.39330344
+214;2019-01-22;Corporal;Chocoterapia;Camila;600;28.61878928
+215;2019-01-22;Corporal;Fango;Rosa;650;0.980182199
+216;2019-01-22;Corporal;Relajante (No Recuerda Bien El Nombre);Rosa;550;21.95296979
+217;2019-01-22;Corporal;Hieloterapia;Rosa;380;11.69932986
+218;2019-01-22;Corporal;Reductivo;María;4995;134.6092501
+219;2019-01-22;Facial;Basico;Rosa;590;16.41851978
+220;2019-01-23;Corporal;Ritual Esencial Del Mar;Rosa;2240;24.6663762
+221;2019-01-23;Corporal;Hieloterapia;Camila;380;11.1447803
+222;2019-01-23;Facial;Yax;Camila;1278;26.13558832
+223;2019-01-23;Corporal;Cacahua;Rosa;1632;19.52082614
+224;2019-01-23;Corporal;Con Tequila;Rafaella;1854.398;48.00772569
+225;2019-01-23;Corporal;Envolvente De Aguacate Con Yogurt;Camila;1320;47.57470171
+226;2019-01-23;Facial;Limpieza Profunda;Rafaella;350;7.429043593
+227;2019-01-23;Corporal;Con Tequila;Camila;1854.398;25.38975364
+228;2019-01-23;Corporal;Ritual Esencial Del Mar;María;2240;45.37776202
+229;2019-01-23;Facial;Basico;Rosa;590;13.93324155
+230;2019-01-23;Facial;Europeo;Camila;850;4.535627848
+231;2019-01-23;Corporal;Velo De Novia (Exfoliacion Corporal);Rosa;350;3.9724338
+232;2019-01-23;Corporal;Hieloterapia;Rosa;380;0.107173156
+233;2019-01-24;Corporal;Chocoterapia;Camila;600;19.11148429
+234;2019-01-24;Facial;Hieloterapia;Camila;550;19.77768425
+235;2019-01-24;Facial;Tratamiento de Limpieza;Ana;1705;10.17919912
+236;2019-01-24;Facial;Limpieza Profunda;Ana;350;8.283626408
+237;2019-01-24;Facial;Antiedad;María;1540;6.665756423
+238;2019-01-24;Corporal;Chocoterapia;Rafaella;600;1.388129492
+239;2019-01-24;Facial;Linea Colageno y Elastina;Rafaella;150;2.29934708
+240;2019-01-24;Facial;Europeo;Ana;850;15.50208831
+241;2019-01-24;Facial;Vaporizacion;Rafaella;480;21.46287042
+242;2019-01-24;Corporal;Velo De Novia (Exfoliacion Corporal);Rafaella;350;8.803624236
+243;2019-01-24;Corporal;De Algas Desintoxicantes;Camila;1849;34.80261192
+244;2019-01-24;Facial;Accua Morin;Rafaella;1500;69.25077554
+245;2019-01-24;Corporal;Cacahua;Ana;1632;37.89254122
+246;2019-01-25;Facial;Vaporizacion;María;480;4.428797274
+247;2019-01-25;Facial;Europeo;Rafaella;850;25.96110423
+248;2019-01-25;Corporal;Ritual Azul Turquesa;Camila;1889;92.45155549
+249;2019-01-25;Corporal;Reductivo;Rosa;4995;142.086255
+250;2019-01-25;Corporal;Reductivo;María;4995;161.4688948
+251;2019-01-25;Facial;Hidratante;Camila;500;17.11505657
+252;2019-01-25;Corporal;Heavenly Body;Rosa;1706;12.81449021
+253;2019-01-25;Facial;Europeo;Ana;850;18.86605768
+254;2019-01-25;Corporal;Velo De Novia (Exfoliacion Corporal);Rafaella;350;16.58224657
+255;2019-01-25;Facial;Equilibrante;María;550;8.360607248
+256;2019-01-25;Corporal;Ritual Azul Turquesa;Ana;1889;85.29270155
+257;2019-01-25;Facial;Renewel;Rosa;2133;80.10355277
+258;2019-01-26;Corporal;Ritual Esencial Del Mar;María;2240;16.42519697
+259;2019-01-26;Facial;Renewel;Ana;2133;47.92265682
+260;2019-01-26;Facial;Daymond Frozend;Ana;2520;16.2703608
+261;2019-01-26;Corporal;Exfoliante Energizante;Rosa;500;13.41881109
+262;2019-01-26;Corporal;Exfoliante Energizante;María;500;21.32557986
+263;2019-01-26;Facial;Limpieza Profunda;Rosa;350;1.259136451
+264;2019-01-26;Facial;Renewel;María;2133;76.14256044
+265;2019-01-26;Facial;Europeo;Rafaella;850;9.584656192
+266;2019-01-26;Facial;Basico;Rafaella;590;4.463358775
+267;2019-01-26;Corporal;De Algas Desintoxicantes;Ana;1849;48.81950435
+268;2019-01-27;Facial;Basico;Camila;590;4.024716869
+269;2019-01-27;Facial;Yax;Ana;1278;5.795534283
+270;2019-01-27;Facial;Accua Morin;Ana;1500;69.73148482
+271;2019-01-27;Facial;Yax;Camila;1278;43.46573407
+272;2019-01-27;Facial;Daymond Frozend;Camila;2520;120.5566754
+273;2019-01-27;Corporal;Modelaje;Camila;805;26.65830354
+274;2019-01-27;Corporal;Hipertermia;María;450;4.120940778
+275;2019-01-27;Facial;Limpieza Profunda;Ana;350;3.143629218
+276;2019-01-27;Corporal;De Algas Desintoxicantes;María;1849;85.61378194
+277;2019-01-27;Corporal;Hieloterapia;Ana;380;14.41029845
+278;2019-01-27;Facial;Vaporizacion;Rafaella;480;22.55167165
+279;2019-01-28;Corporal;Exfoliante Energizante;María;500;21.26373465
+280;2019-01-28;Facial;Limpieza Profunda;María;350;9.436916406
+281;2019-01-28;Facial;Antiedad;Rafaella;1540;66.42732721
+282;2019-01-28;Facial;Exfoliación;Camila;400;11.69459633
+283;2019-01-28;Facial;Basico;Camila;590;2.689797193
+284;2019-01-28;Corporal;Fango Aromatico;Rafaella;850;23.59190125
+285;2019-01-28;Facial;Lifting de Piel Madura;Rafaella;4095;138.803949
+286;2019-01-28;Facial;Limpieza Profunda;Rafaella;350;2.812937269
+287;2019-01-28;Corporal;Ritual Azul Turquesa;María;1889;78.59170708
+288;2019-01-29;Corporal;Cacahua;Ana;1632;42.27338112
+289;2019-01-29;Corporal;Fango Aromatico;Rafaella;850;19.20430652
+290;2019-01-29;Corporal;Integral Reductivo;Ana;650;3.726390427
+291;2019-01-29;Corporal;Ritual Esencial Del Mar;María;2240;20.99873977
+292;2019-01-29;Facial;Yax;Ana;1278;30.46914509
+293;2019-01-29;Corporal;Heavenly Body;María;1706;62.38654675
+294;2019-01-29;Corporal;De Algas Desintoxicantes;Rafaella;1849;36.09242969
+295;2019-01-29;Facial;Lifting de Piel Madura;Rafaella;4095;152.2864188
+296;2019-01-29;Facial;Tratamiento de Limpieza;Rafaella;1705;39.23619616
+297;2019-01-29;Facial;Limpieza Profunda;Ana;350;8.97002054
+298;2019-01-29;Corporal;Fango;Ana;650;21.62280454
+299;2019-01-29;Facial;Limpieza Profunda;Camila;350;14.8034167
+300;2019-01-29;Corporal;Velo De Novia (Exfoliacion Corporal);Ana;350;13.90329745
+301;2019-01-29;Facial;Europeo;Rosa;850;11.86799423
+302;2019-01-29;Corporal;Hipertermia;Camila;450;5.51054881
+303;2019-01-29;Corporal;Reductivo;Rafaella;4995;77.82230864
+304;2019-01-29;Corporal;Con Tequila;Rosa;1854.398;85.58120507
+305;2019-01-30;Facial;Daymond Frozend;María;2520;12.10155332
+306;2019-01-30;Corporal;Integral Reductivo;Camila;650;8.228788131
+307;2019-01-30;Facial;Antiedad;Rosa;1540;52.45224204
+308;2019-01-30;Corporal;Cacahua;Rafaella;1632;29.24667364
+309;2019-01-30;Facial;Linea Colageno y Elastina;Camila;150;4.980346147
+310;2019-01-30;Corporal;Exfoliante Energizante;Camila;500;14.145817
+311;2019-01-30;Corporal;Envolvente De Aguacate Con Yogurt;Ana;1320;18.0747871
+312;2019-01-30;Facial;Renewel;Ana;2133;48.92113306
+313;2019-01-30;Facial;Accua Morin;Ana;1500;15.25921526
+314;2019-01-30;Corporal;Envolvente Desintoxicante;Camila;750;19.44138787
+315;2019-01-30;Corporal;Modelaje;Rafaella;805;16.33993555
+316;2019-01-31;Facial;Accua Morin;Ana;1500;18.31114727
+317;2019-01-31;Facial;Linea Colageno y Elastina;Camila;150;4.769314397
+318;2019-01-31;Facial;Limpieza Profunda;Camila;350;12.49044177
+319;2019-01-31;Corporal;Ritual Azul Turquesa;Ana;1889;22.94822035
+320;2019-01-31;Corporal;Chocoterapia;Camila;600;12.72030615
+321;2019-01-31;Corporal;Hieloterapia;Ana;380;17.93299202
+322;2019-01-31;Facial;Vaporizacion;Rosa;480;17.34160232
+323;2019-01-31;Facial;Accua Morin;María;1500;46.09019394
+324;2019-01-31;Corporal;De Algas Desintoxicantes;Rosa;1849;61.06921875
+325;2019-01-31;Corporal;Fango Aromatico;María;850;42.4514461
+326;2019-02-01;Corporal;Envolvente Desintoxicante;Ana;750;16.93447103
+327;2019-02-01;Facial;Renewel;Ana;2133;40.78734582
+328;2019-02-01;Corporal;Ritual Azul Turquesa;Camila;1889;28.06086721
+329;2019-02-01;Facial;Limpieza Profunda;Ana;350;14.22560134
+330;2019-02-01;Corporal;Chocoterapia;María;600;15.09527297
+331;2019-02-01;Facial;Linea Colageno y Elastina;Ana;150;3.015632667
+332;2019-02-01;Facial;Limpieza Profunda;Rafaella;350;4.426325444
+333;2019-02-01;Corporal;Con Tequila;María;1854.398;3.823499545
+334;2019-02-01;Facial;Exfoliación;Rosa;400;17.04967566
+335;2019-02-01;Corporal;Relajante (No Recuerda Bien El Nombre);Camila;550;8.601153705
+336;2019-02-01;Corporal;Modelaje;Rafaella;805;17.65744071
+337;2019-02-01;Corporal;Relajante (No Recuerda Bien El Nombre);Rosa;550;20.55260671
+338;2019-02-01;Corporal;Relajante (No Recuerda Bien El Nombre);María;550;13.11215289
+339;2019-02-01;Facial;Daymond Frozend;Camila;2520;72.68404861
+340;2019-02-01;Corporal;Cacahua;María;1632;22.59558045
+341;2019-02-01;Facial;Vaporizacion;María;480;6.043734155
+342;2019-02-01;Facial;Accua Morin;Rosa;1500;63.83833752
+343;2019-02-01;Facial;Europeo;Ana;850;26.39179887
+344;2019-02-01;Facial;Antiedad;María;1540;23.10142983
+345;2019-02-02;Corporal;Ritual Azul Turquesa;María;1889;50.44697696
+346;2019-02-02;Corporal;Ritual Azul Turquesa;Camila;1889;83.15214424
+347;2019-02-02;Corporal;Velo De Novia (Exfoliacion Corporal);Ana;350;16.97498607
+348;2019-02-02;Corporal;Heavenly Body;Camila;1706;40.14890385
+349;2019-02-02;Corporal;Ritual Azul Turquesa;Ana;1889;56.13694374
+350;2019-02-02;Corporal;Envolvente De Aguacate Con Yogurt;Camila;1320;24.21950669
+351;2019-02-02;Corporal;Fango Aromatico;Rafaella;850;23.02613046
+352;2019-02-02;Corporal;Modelaje;Rosa;805;34.65198716
+353;2019-02-02;Facial;Limpieza Profunda;María;350;12.88583864
+354;2019-02-02;Corporal;Ritual Azul Turquesa;María;1889;37.0122858
+355;2019-02-02;Corporal;Integral Reductivo;Ana;650;10.70904918
+356;2019-02-02;Corporal;Reductivo;Ana;4995;159.7478813
+357;2019-02-02;Corporal;Envolvente Desintoxicante;Rosa;750;33.99440729
+358;2019-02-02;Corporal;Relajante (No Recuerda Bien El Nombre);Ana;550;20.9646336
+359;2019-02-02;Corporal;Chocoterapia;Ana;600;1.751437434
+360;2019-02-02;Facial;Daymond Frozend;Ana;2520;24.57528708
+361;2019-02-03;Corporal;Reductivo;Camila;4995;36.8892737
+362;2019-02-03;Facial;Europeo;Rosa;850;5.666368808
+363;2019-02-03;Facial;Lifting de Piel Madura;María;4095;29.66689038
+364;2019-02-03;Corporal;Fango;Rosa;650;27.61181887
+365;2019-02-03;Facial;Hidratante;Ana;500;14.6117717
+366;2019-02-03;Facial;Daymond Frozend;María;2520;46.12999303
+367;2019-02-03;Corporal;Envolvente Desintoxicante;Rafaella;750;8.301763874
+368;2019-02-03;Facial;Europeo;Camila;850;10.52694992
+369;2019-02-03;Corporal;Exfoliante Energizante;María;500;23.18463565
+370;2019-02-03;Facial;Limpieza Profunda;Rosa;350;10.18135694
+371;2019-02-03;Facial;Basico;María;590;21.25058156
+372;2019-02-03;Corporal;Envolvente Desintoxicante;Camila;750;3.800399136
+373;2019-02-04;Corporal;Ritual Azul Turquesa;María;1889;92.5261929
+374;2019-02-04;Corporal;Fango;Rafaella;650;15.49742113
+375;2019-02-04;Corporal;Exfoliante Energizante;Camila;500;23.79228584
+376;2019-02-04;Corporal;Con Tequila;Ana;1854.398;37.88646015
+377;2019-02-04;Facial;Linea Colageno y Elastina;Ana;150;2.389980735
+378;2019-02-04;Corporal;Hipertermia;Rosa;450;4.301230628
+379;2019-02-04;Corporal;De Algas Desintoxicantes;Rosa;1849;45.53028956
+380;2019-02-05;Corporal;Hipertermia;Rosa;450;15.58750556
+381;2019-02-05;Corporal;Ritual Esencial Del Mar;Camila;2240;85.83813346
+382;2019-02-05;Facial;Microdermoabrasión;Rosa;850;42.01306172
+383;2019-02-05;Facial;Antiedad;Rosa;1540;19.65974064
+384;2019-02-05;Facial;Limpieza Profunda;Rafaella;350;16.35827802
+385;2019-02-05;Corporal;Con Tequila;María;1854.398;81.58427976
+386;2019-02-06;Facial;Europeo;Camila;850;26.49447315
+387;2019-02-06;Corporal;Modelaje;Rosa;805;13.66363726
+388;2019-02-06;Facial;Antiedad;Rosa;1540;21.95649912
+389;2019-02-06;Corporal;Exfoliante Energizante;María;500;14.95086268
+390;2019-02-06;Corporal;Hipertermia;María;450;14.38808617
+391;2019-02-06;Facial;Equilibrante;Rosa;550;4.415657851
+392;2019-02-06;Facial;Europeo;Ana;850;3.984818338
+393;2019-02-06;Corporal;Con Tequila;Camila;1854.398;56.63330188
+394;2019-02-06;Facial;Tratamiento de Limpieza;Ana;1705;64.20691869
+395;2019-02-06;Corporal;Fango Aromatico;Rosa;850;25.61068481
+396;2019-02-06;Facial;Linea Colageno y Elastina;Rosa;150;1.464621358
+397;2019-02-07;Corporal;Envolvente Desintoxicante;María;750;3.183997145
+398;2019-02-07;Facial;Limpieza Profunda;Rafaella;350;6.025534365
+399;2019-02-07;Corporal;Modelaje;María;805;3.07849837
+400;2019-02-07;Facial;Microdermoabrasión;María;850;24.35489934
+401;2019-02-07;Corporal;Exfoliante Energizante;Rafaella;500;2.981156418
+402;2019-02-07;Corporal;Envolvente Desintoxicante;Rafaella;750;12.88449762
+403;2019-02-08;Corporal;Hieloterapia;Camila;380;13.37268519
+404;2019-02-08;Facial;Linea Colageno y Elastina;Camila;150;0.51840534
+405;2019-02-08;Corporal;De Algas Desintoxicantes;Rafaella;1849;48.84277234
+406;2019-02-08;Corporal;De Algas Desintoxicantes;María;1849;72.48670979
+407;2019-02-08;Facial;Yax;Rafaella;1278;11.92391042
+408;2019-02-08;Facial;Daymond Frozend;Ana;2520;9.206595293
+409;2019-02-08;Corporal;Hipertermia;Rosa;450;1.239677066
+410;2019-02-08;Facial;Europeo;Ana;850;37.19555123
+411;2019-02-08;Facial;Equilibrante;Camila;550;26.78916997
+412;2019-02-08;Facial;Vaporizacion;María;480;9.764556793
+413;2019-02-09;Facial;Hieloterapia;Rosa;550;4.863197179
+414;2019-02-09;Corporal;Modelaje;Rosa;805;32.43253828
+415;2019-02-09;Corporal;Heavenly Body;Camila;1706;28.61508438
+416;2019-02-09;Facial;Limpieza Profunda;Rafaella;350;2.283535232
+417;2019-02-09;Corporal;Hieloterapia;María;380;11.12732028
+418;2019-02-09;Corporal;Cacahua;Camila;1632;42.09682255
+419;2019-02-09;Corporal;Reductivo;Rosa;4995;159.0503706
+420;2019-02-09;Facial;Europeo;Camila;850;21.10274272
+421;2019-02-09;Corporal;Con Tequila;Rosa;1854.398;5.506788639
+422;2019-02-09;Facial;Europeo;María;850;32.10522021
+423;2019-02-09;Facial;Microdermoabrasión;Rosa;850;40.71337288
+424;2019-02-09;Corporal;Relajante (No Recuerda Bien El Nombre);Ana;550;10.08568319
+425;2019-02-09;Facial;Linea Colageno y Elastina;María;150;4.160716804
+426;2019-02-09;Facial;Daymond Frozend;Rafaella;2520;97.90086721
+427;2019-02-09;Facial;Tratamiento de Limpieza;Rosa;1705;40.20883306
+428;2019-02-10;Facial;Linea Colageno y Elastina;Rosa;150;3.534946851
+429;2019-02-10;Facial;Renewel;Ana;2133;87.42396926
+430;2019-02-10;Facial;Europeo;Camila;850;36.40221608
+431;2019-02-10;Facial;Accua Morin;María;1500;66.16435327
+432;2019-02-10;Facial;Renewel;María;2133;16.51287995
+433;2019-02-10;Corporal;Integral Reductivo;Rosa;650;13.44911554
+434;2019-02-10;Corporal;Chocoterapia;Ana;600;9.474201627
+435;2019-02-10;Facial;Antiedad;María;1540;46.54305871
+436;2019-02-10;Corporal;Integral Reductivo;María;650;10.24743519
+437;2019-02-11;Corporal;De Algas Desintoxicantes;Camila;1849;26.75911819
+438;2019-02-11;Facial;Accua Morin;Camila;1500;39.12582095
+439;2019-02-11;Corporal;De Algas Desintoxicantes;Rosa;1849;82.84950605
+440;2019-02-11;Facial;Limpieza Profunda;Camila;350;6.200780389
+441;2019-02-11;Facial;Antiedad;Camila;1540;27.02448499
+442;2019-02-11;Facial;Basico;Camila;590;19.38972837
+443;2019-02-11;Corporal;Ritual Esencial Del Mar;María;2240;39.11748453
+444;2019-02-11;Facial;Antiedad;Rafaella;1540;3.807707453
+445;2019-02-11;Facial;Tratamiento de Limpieza;Ana;1705;35.99514929
+446;2019-02-11;Facial;Accua Morin;María;1500;25.10267367
+447;2019-02-11;Facial;Antiedad;Ana;1540;63.74870824
+448;2019-02-12;Corporal;Velo De Novia (Exfoliacion Corporal);Rafaella;350;7.147639453
+449;2019-02-12;Corporal;Reductivo;Rafaella;4995;158.4796377
+450;2019-02-12;Corporal;Ritual Azul Turquesa;Ana;1889;60.04602141
+451;2019-02-12;Corporal;Velo De Novia (Exfoliacion Corporal);Rafaella;350;8.435679194
+452;2019-02-12;Facial;Hieloterapia;Camila;550;15.38513451
+453;2019-02-12;Facial;Renewel;Rosa;2133;80.94556734
+454;2019-02-12;Corporal;Envolvente De Aguacate Con Yogurt;Ana;1320;48.63870262
+455;2019-02-12;Facial;Equilibrante;María;550;13.01655385
+456;2019-02-12;Facial;Hidratante;Rosa;500;10.84176235
+457;2019-02-12;Corporal;Modelaje;María;805;28.98505498
+458;2019-02-12;Facial;Lifting de Piel Madura;Rosa;4095;77.08515238
+459;2019-02-12;Facial;Basico;María;590;23.72549092
+460;2019-02-13;Facial;Antiedad;Rosa;1540;41.17266802
+461;2019-02-13;Corporal;Modelaje;María;805;28.63950899
+462;2019-02-13;Corporal;Ritual Azul Turquesa;Rosa;1889;79.29034703
+463;2019-02-13;Facial;Antiedad;María;1540;21.14672506
+464;2019-02-13;Corporal;Fango Aromatico;Camila;850;24.42234259
+465;2019-02-13;Corporal;De Algas Desintoxicantes;Ana;1849;46.54291209
+466;2019-02-13;Facial;Hieloterapia;Rosa;550;20.68169445
+467;2019-02-13;Facial;Accua Morin;Rosa;1500;57.29160063
+468;2019-02-13;Corporal;Reductivo;Camila;4995;188.1127068
+469;2019-02-14;Facial;Basico;María;590;25.96963686
+470;2019-02-14;Corporal;De Algas Desintoxicantes;Rafaella;1849;52.24839814
+471;2019-02-14;Facial;Microdermoabrasión;María;850;15.96120503
+472;2019-02-14;Facial;Limpieza Profunda;María;350;3.287956495
+473;2019-02-14;Facial;Renewel;Camila;2133;29.69282639
+474;2019-02-14;Facial;Limpieza Profunda;Ana;350;14.16219773
+475;2019-02-14;Corporal;Fango;Rafaella;650;7.314247405
+476;2019-02-15;Corporal;Hipertermia;Rafaella;450;3.505611234
+477;2019-02-15;Corporal;Fango Aromatico;Camila;850;33.9650057
+478;2019-02-15;Corporal;Exfoliante Energizante;Camila;500;18.37401345
+479;2019-02-15;Corporal;Ritual Esencial Del Mar;Ana;2240;71.28183171
+480;2019-02-15;Facial;Vaporizacion;Camila;480;15.30555821
+481;2019-02-15;Corporal;Cacahua;Rosa;1632;51.45053727
+482;2019-02-15;Facial;Lifting de Piel Madura;Rafaella;4095;105.1185275
+483;2019-02-15;Facial;Europeo;Rosa;850;31.81980798
+484;2019-02-15;Corporal;Ritual Esencial Del Mar;Rafaella;2240;5.542602082
+485;2019-02-15;Facial;Yax;Rafaella;1278;11.30838412
+486;2019-02-15;Facial;Limpieza Profunda;Camila;350;9.943216313
+487;2019-02-16;Facial;Limpieza Profunda;Rosa;350;8.293518529
+488;2019-02-16;Corporal;Fango;Camila;650;5.858833106
+489;2019-02-16;Corporal;Envolvente De Aguacate Con Yogurt;María;1320;29.81744348
+490;2019-02-16;Facial;Vaporizacion;María;480;17.18130078
+491;2019-02-16;Facial;Europeo;María;850;4.202802098
+492;2019-02-16;Corporal;Chocoterapia;María;600;8.379070672
+493;2019-02-16;Corporal;De Algas Desintoxicantes;María;1849;86.78962687
+494;2019-02-16;Corporal;Envolvente Desintoxicante;Rafaella;750;4.27745469
+495;2019-02-16;Facial;Tratamiento de Limpieza;Rosa;1705;41.90523381
+496;2019-02-17;Corporal;Ritual Azul Turquesa;Ana;1889;70.71323627
+497;2019-02-17;Corporal;De Algas Desintoxicantes;Ana;1849;79.79824927
+498;2019-02-17;Facial;Limpieza Profunda;Rosa;350;10.89389541
+499;2019-02-17;Facial;Daymond Frozend;Rosa;2520;89.83738458
+500;2019-02-17;Facial;Daymond Frozend;María;2520;100.0887229
+501;2019-02-17;Corporal;Envolvente Desintoxicante;Rosa;750;26.25681322
+502;2019-02-17;Facial;Lifting de Piel Madura;Ana;4095;180.154563
+503;2019-02-17;Corporal;Heavenly Body;María;1706;5.35191725
+504;2019-02-17;Facial;Basico;Rafaella;590;0.51133547
+505;2019-02-17;Facial;Limpieza Profunda;Rosa;350;16.56167242
+506;2019-02-17;Facial;Microdermoabrasión;Camila;850;32.58468053
+507;2019-02-17;Facial;Antiedad;Rafaella;1540;48.47991598
+508;2019-02-17;Facial;Limpieza Profunda;Camila;350;13.14117938
+509;2019-02-17;Corporal;Ritual Azul Turquesa;Rafaella;1889;46.40800895
+510;2019-02-17;Corporal;Con Tequila;Rosa;1854.398;76.01744218
+511;2019-02-17;Corporal;Con Tequila;María;1854.398;1.365911056
+512;2019-02-17;Corporal;Reductivo;María;4995;164.6088639
+513;2019-02-18;Facial;Tratamiento de Limpieza;María;1705;16.7548755
+514;2019-02-18;Facial;Linea Colageno y Elastina;Rafaella;150;0.869879521
+515;2019-02-18;Corporal;Integral Reductivo;María;650;17.42810094
+516;2019-02-18;Corporal;Fango;María;650;29.53253474
+517;2019-02-18;Facial;Hieloterapia;María;550;12.02786701
+518;2019-02-18;Facial;Europeo;Rafaella;850;8.457868719
+519;2019-02-18;Facial;Linea Colageno y Elastina;Ana;150;5.371949198
+520;2019-02-18;Corporal;Reductivo;Rafaella;4995;213.2282949
+521;2019-02-18;Corporal;Exfoliante Energizante;Camila;500;13.83717441
+522;2019-02-18;Facial;Limpieza Profunda;Rafaella;350;5.657527448
+523;2019-02-18;Corporal;Hipertermia;Rafaella;450;2.890640936
+524;2019-02-18;Corporal;Fango;Rafaella;650;9.274377344
+525;2019-02-18;Corporal;Reductivo;María;4995;16.6614677
+526;2019-02-18;Facial;Europeo;María;850;23.18823112
+527;2019-02-19;Facial;Europeo;Rafaella;850;6.862369696
+528;2019-02-19;Corporal;Integral Reductivo;Ana;650;23.02765143
+529;2019-02-19;Corporal;Chocoterapia;Rafaella;600;18.99922913
+530;2019-02-19;Facial;Tratamiento de Limpieza;María;1705;37.07893393
+531;2019-02-19;Facial;Vaporizacion;Rosa;480;7.3807782
+532;2019-02-19;Corporal;Cacahua;María;1632;67.415741
+533;2019-02-19;Facial;Europeo;Camila;850;31.51351143
+534;2019-02-19;Corporal;Hieloterapia;Camila;380;6.380690777
+535;2019-02-19;Facial;Europeo;Rosa;850;6.443372211
+536;2019-02-19;Corporal;Con Tequila;Rafaella;1854.398;60.68678097
+537;2019-02-19;Facial;Yax;María;1278;47.2692856

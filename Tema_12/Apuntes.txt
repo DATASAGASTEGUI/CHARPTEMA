@@ -1,0 +1,12 @@
+﻿Para trabajar con MySQL en C#, necesitarás el conector MySQL para .NET. Puedes instalarlo a través del paquete NuGet llamado "MySql.Data".
+
+Aquí te muestro cómo hacerlo en Visual Studio:
+
+Abre tu proyecto en Visual Studio.
+
+Ve al menú "Herramientas" -> "Administrador de paquetes NuGet" -> "Consola del Administrador de Paquetes".
+
+En la consola del Administrador de Paquetes, escribe el siguiente comando y presiona Enter:
+
+
+Install-Package MySql.Data

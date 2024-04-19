@@ -1,0 +1,29 @@
+﻿<Window x:Class="WPF_CERTIFICADO.Tema_26.xaml_08.Ventana2"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WPF_CERTIFICADO.Tema_26.xaml_08"
+        mc:Ignorable="d"
+        
+        Title="VENTANA CSHARP WPF"
+        Height="325"
+        Width="400"
+        Icon="cross1.png"
+        ResizeMode="NoResize"
+        WindowStartupLocation="CenterScreen"
+        Background="LightGray">
+
+    <Grid Margin="10">
+        <ScrollViewer>
+            <StackPanel>
+                <StackPanel Name="stackPanelPreguntas" />
+                <StackPanel Orientation="Horizontal" Margin="0,15,0,0" HorizontalAlignment="Center">
+                    <Button Content="EVALUAR" FontSize="9" Width="80" Click="Evaluar" />
+                    <Button Content="REINICIAR" FontSize="9" Width="80" Margin="10,0,10,0" Click="Reiniciar"/>
+                    <Button Content="SALIR"  FontSize="9" Width="80" Click="Salir"/>
+                </StackPanel>
+            </StackPanel>
+        </ScrollViewer>
+    </Grid>
+</Window>

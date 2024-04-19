@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+
+     <script>
+         let lista_numeros = [1,2,4,5];
+
+         let lista_valoresdistintos = [21,
+                                       1.72,
+                                       "Luis",
+                                       true,
+                                       ["paseo","Lectura"],
+                                       {marca: "Toyota", color: "Rojo"},
+                                       function (a,b) {return a+b}
+                                      ];
+
+         for(let i=0; i<lista_numeros.length; i++) {
+             console.log(lista_numeros[i]);
+             document.write(lista_numeros[i] + "<br>");
+         }
+
+         for(let i=0; i<lista_valoresdistintos.length; i++) {
+             console.log(lista_valoresdistintos[i]);
+             document.write(lista_valoresdistintos[i] + "<br>");
+         }
+
+         //ACCEDER A LA MARCA DE UN DICCIONARIO ANIDADA EN UNA LISTA
+         document.write(lista_valoresdistintos[5].marca + "<br>");
+         //ACCEDER A UN ELEMENTO DE UNA LISTA ANIDADA EN OTRA LISTA
+         document.write(lista_valoresdistintos[4] + "<br>");
+         document.write(lista_valoresdistintos[4][0] + "<br>");
+         //ACCEDER A UNA FUNCION GUARDADA EN UNA LISTA
+         let suma = lista_valoresdistintos[6]
+         document.write(suma(4,5) + "<br>");
+         document.write(typeof(suma)); //function
+
+     </script>
+
+</body>
+</html>

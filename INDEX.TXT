@@ -1,0 +1,106 @@
+﻿
+TEMA_01: CONSOLE. ESCRIBIR MENSAJES, CAMBIAR EL COLOR DE LETRA, COLOR DE FONDO, LECTURA DE DATOS
+
+TEMA_02: TIPO DE DATOS
+
+TEMA_03: BUCLE: FOR
+
+TEMA_04: BUCLE: WHILE, DO...WHILE
+                1. Ingresar n numero enteros mientras sea distinto de cero (cero finaliza)
+
+
+TEMA_05: ARRAY: VECTOR, MATRIZ Y CUBO
+
+TEMA_06: CONVERSIONES ENTRE TIPOS DE DATOS
+
+TEMA_07: METODOS
+
+TEMA_08: CADENAS
+
+TEMA_09: CSV (LECTURA Y ESCRITURA)
+
+TEMA_10: MENU
+
+TEMA_11: PROYECTO ESTETICA CSV
+
+TEMA_12: CONEXION CON BASE DE DATOS MYSQL
+
+TEMA_13: MENU DE CONSULTAS SQL
+
+TEMA_14: CLASE-OBJETO-PRIVATE-PUBLIC-CONST-STATIC
+
+TEMA:15: CREAR UNA BASE DE DATOS CON SUS TABLAS Y REGISTROS
+
+TEMA_16: VALIDAR CONEXION. ARCHIVO CSV GRABADO EN UNA BASE DE DATOS
+
+TEMA_17: SQLITE(PORTATIL - ARCHIVO)
+         Principal1.cs : VALIDAR LA CONEXION
+
+         Install-Package System.Data.SQLite.Core
+
+TEMA_18: MIGRAR DE SQLITE A MYSQL
+
+TEMA_19: LEER UN JSON
+
+TEMA_20: PROGRAMACION ORIENTADO A OBJETOS
+         CONVERSIONES: CSV-JSON-SQL
+
+TEMA_21: DICCIONARIO
+
+TEMA_22: HERENCIA (POO)
+
+TEMA_23: POLIMORFISMO (POO)
+
+TEMA_24: ENCAPSULAMIENTO (POO)
+
+TEMA_25: INTEFACE (POO) - DELEGAR CONTRATOS QUE NO SON MAS QUE TAREAS
+
+
+--------------------------------------------------------------------------------
+            string rutaarchivo = "C:/nuevosqlite3/probando.db";
+            string cadena_conexion = $"Data Source={rutaarchivo};Version=3";
+
+            string ruta_relativa = @"data/sqlite/empresa.sqlite";
+            string ruta_absoluta = Path.GetFullPath(ruta_relativa); 
+
+            if (File.Exists(ruta_absoluta))
+            {
+                File.Delete(ruta_absoluta);
+                Console.WriteLine("OK: ARCHIVO ELIMINADO");
+            }
+
+            string query = "SELECT * FROM TABLA1";
+
+            SQLiteConnection conexion = new SQLiteConnection(cadena_conexion); 
+            MySqlConnection  conexion = new MySqlConnection(cadena_conexion);
+
+            conexion.Open();
+
+            SQLiteCommand comando = conexion.CreateCommand();
+            MySqlCommand  comando = conexion.CreateCommand();
+
+            comando.CommandText = query;
+
+            SQLiteDataReader lector = comando.ExecuteReader();
+
+            if(lector.HasRows)
+            {
+                while(lector.Read())
+                {
+                    string id = lector.GetString(0);
+                    string nombre = lector.GetString(1);
+                    Console.WriteLine("{0,4} {1, -10}", id, nombre);
+                }
+            }else
+            {
+                Console.WriteLine("TABLA VACIA");
+            }
+
+
+--------------------------------------------------------------------------------
+
+
+
+
+
+

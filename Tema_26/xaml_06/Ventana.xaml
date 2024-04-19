@@ -1,0 +1,40 @@
+﻿<Window x:Class="WPF_CERTIFICADO.Tema_26.xaml_06.Ventana"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WPF_CERTIFICADO.Tema_26.xaml_06"
+        mc:Ignorable="d"
+        
+        Title="VENTANA CSHARP WPF"
+        Height="325"
+        Width="400"
+        Icon="cross1.png"
+        ResizeMode="NoResize"
+        WindowStartupLocation="CenterScreen"
+        Background="LightGray">
+    
+    
+        <Grid Margin="15">
+        <StackPanel VerticalAlignment="Center">
+            <TextBlock Text="COMBOBOX" FontSize="14" Foreground="Blue" TextAlignment="Center" Margin="0,0,0,15" />
+            <TextBlock Name="textCiudad" Text="SELECCIONE CIUDAD" HorizontalAlignment="Center"  Margin="0,0,0,15"/>
+            <ComboBox Name="cboCiudad" Width="150" SelectionChanged="SeleccionarItem" Margin="0,0,0,15">
+                <ComboBoxItem>SELECCIONE CIUDAD</ComboBoxItem>
+                <ComboBoxItem>BARCELONA</ComboBoxItem>
+                <ComboBoxItem>BILBAO</ComboBoxItem>
+                <ComboBoxItem>MADRID</ComboBoxItem>
+                <ComboBoxItem>SEVILLA</ComboBoxItem>
+                <ComboBoxItem>ZARAGOZA</ComboBoxItem>
+                <ComboBoxItem>CADIZ</ComboBoxItem>
+                <ComboBoxItem>GRANADA</ComboBoxItem>
+            </ComboBox>
+            <StackPanel Orientation="Horizontal" HorizontalAlignment="Center">
+                <Button Name="botReiniciar" Content="Reiniciar" Width="80" Click="Reiniciaar"/>
+                <Button Name="botSalir" Content="Salir" Width="80" Click="Salir" />
+            </StackPanel>
+        </StackPanel>
+        </Grid>
+    
+    
+</Window>

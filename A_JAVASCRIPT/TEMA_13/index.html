@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+
+    <script>
+        let lista_valoresdistintos = [21,
+            1.72,
+            "Luis",
+            true,
+            ["paseo", "Lectura"],
+            { marca: "Toyota", color: "Rojo" },
+            function (a, b) { return a + b }
+        ];
+
+        document.write("<table border='1'>");
+        document.write("<th>N</th><th>VALOR</th>");
+
+        for (let i = 0; i < lista_valoresdistintos.length; i++) {
+            document.write("<tr>")
+            document.write("<td>" + i + "</td>");
+            document.write("<td>" + lista_valoresdistintos[i] + "</td>");
+            document.write("</tr>")
+        }
+        document.write("</table><br>");
+
+        document.write(lista_valoresdistintos[5].marca + "<br>");
+        document.write(lista_valoresdistintos[5]['marca']);
+
+
+    </script>
+
+</body>
+
+</html>

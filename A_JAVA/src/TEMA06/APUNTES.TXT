@@ -1,0 +1,25 @@
+------------------------------------------------
+- INSTALAR SERVDIR(SERVICIO) ORACLE: LEVANTAR (OracleServiceXE, OracleOraDB21Home1TNSListener)
+                                     BAJAR
+
+- INSTALAR CLIENTE - GRAFICO                 (SQLDEVELOPER)
+           CLIENTE - SHELL LINEA DE COMANDOS (SQLPLUS)
+
+- VARIABLA DE ENTORNO
+
+C:\app\RYZEN\product\21c\dbhomeXE\bin 
+------------------------------------------------
+- USUARIO ADMINISTRADOR
+
+C:\>SQLPLUS SYSTEM/12345678@LOCALHOST:1521/XEPDB1 AS SYSDBA ---> SYS
+
+- COMANDOS BASICOS
+
+SQL>START TABLAS_FACTORIA.SQL
+
+SQL>SELECT TNAME FROM TAB;
+
+DISCONNECT;
+
+
+SQLPLUS FACTORIA/12345678@LOCALHOST:1521/XEPDB1

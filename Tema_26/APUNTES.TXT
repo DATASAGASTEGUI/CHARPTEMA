@@ -1,0 +1,36 @@
+﻿*****************
+***   INDEX   ***
+*****************
+
+01: PERSONALIZAR UNA VENTANA XAML
+02: PERSONALIZAR UNA VENTANA C#
+03: 
+
+
+05: ListBox
+06: ComboBox
+07: CheckBox
+08: RadioButton
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+******************
+***   NOTA 1   ***
+******************
+
+MainWindow.xaml        = VISTA - XAML
+MainWidoww.xaml.cs     = CONTROLADOR - CSHARP - C#
+
+App.xaml : Archivo de configuración indica la aplicación que vamos lanzar.
+

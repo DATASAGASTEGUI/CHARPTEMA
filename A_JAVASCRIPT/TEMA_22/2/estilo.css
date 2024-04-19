@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.contenedor-slider {
+   /*CONTENEDOR*/
+   max-width: 50%;
+   margin: 100px auto;
+   height: 350px;
+
+   /*HIJOS*/
+   display: flex; /*Distribuir horizontal*/
+   align-items: center; /*Centrar vertical*/
+   justify-content: center; /*Centrar Horizontal*/
+   gap: 50px;
+}
+
+.slider-derecha,
+.slider-izquierda {
+    width: 50px;
+    height: 50px;
+}
+
+.slider-centro {
+   border-radius: 90px;
+   width: 180px;
+   height: 180px;
+   box-shadow: 5px 5px 25px black;
+   overflow: hidden;
+}
+
+.contenedor-estilos {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    max-width: 50%; 
+    margin: 0 auto 100px auto;
+}
+
+button {
+    width: 25%;
+}

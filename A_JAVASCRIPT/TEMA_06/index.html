@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+
+
+
+    <script>
+        /*
+OPERADORES DE COMPARACION
+
+OPERADOR                     DESCRIPCION                                                                  EJEMPLO
+-------                      -----------                                                                  -------
+Igualdad               ==	 Compara si dos valores son iguales.	                                      a == b
+Desigualdad            !=	 Compara si dos valores no son iguales.	                                      a != b
+Igualdad estricta      ===   Compara si dos valores son iguales en tipo y valor.	                      a === b
+Desigualdad estricta   !==	 Compara si dos valores no son iguales en tipo o valor.	                      a !== b
+Mayor que              >     Compara si el valor de la izquierda es mayor que el de la derecha.	          a > b
+Mayor o igual que      >=	 Compara si el valor de la izquierda es mayor o igual que el de la derecha.   a >= b
+Menor que              <	 Compara si el valor de la izquierda es menor que el de la derecha.	          a < b
+Menor o igual que      <=	 Compara si el valor de la izquierda es menor o igual que el de la derecha.	  a <= b
+        */
+//-------------
+let x = 1; // number
+let y = "1"; // string
+
+let z1 = (x == y); // Toma en cuenta solo el valor
+console.log("Resultado 1: " + z1); // true
+
+let z2 = (x === y); // Toma en cuenta el valor y el tipo
+console.log("Resultado 2: " + z2); // false
+//-------------
+x = 1; // number
+y = 1; // number
+
+z1 = (x == y); // Toma en cuenta solo el valor
+console.log("Resultado 1: " + z1); // true
+
+z2 = (x === y); // Toma en cuenta el valor y el tipo
+console.log("Resultado 2: " + z2); // false
+    </script>
+</body>
+</html>
